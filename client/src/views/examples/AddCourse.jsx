@@ -153,7 +153,7 @@ class AddCourse extends React.Component {
                                         <label className="form-control-label"> Course No : </label>
                                         <Input
                                             className="form-control-alternative"
-                                            placeholder="Enter Assignment Name"
+                                            placeholder="Enter Course No"
                                             type="text"
                                             value={this.state.courseno}
                                             onChange={this.onClickCourseNo}
@@ -165,7 +165,7 @@ class AddCourse extends React.Component {
                                         <label className="form-control-label"> Course Name : </label>
                                         <Input
                                             className="form-control-alternative"
-                                            placeholder="Enter Assignment Name"
+                                            placeholder="Enter Course Name"
                                             type="text"
                                             value={this.state.coursename}
                                             onChange={this.onClickCourseName}
@@ -177,7 +177,7 @@ class AddCourse extends React.Component {
                                         <label className="form-control-label"> Credits : </label>
                                         <Input
                                             className="form-control-alternative"
-                                            placeholder="Enter Assignment Name"
+                                            placeholder="Credits"
                                             type="text"
                                             value={this.state.credits}
                                             onChange={this.onClickCredits}
@@ -189,7 +189,7 @@ class AddCourse extends React.Component {
                                         <label className="form-control-label"> Course Details : </label>
                                         <Input
                                             className="form-control-alternative"
-                                            placeholder="Enter Assignment Name"
+                                            placeholder="Enter Course Details"
                                             type="text"
                                             value={this.state.coursedetails}
                                             onChange={this.onClickCourseDetails}
@@ -200,7 +200,7 @@ class AddCourse extends React.Component {
                                     <FormGroup className="form-group col-md-8">
                                         <label className="form-control-label"> Instructors : </label>
                                         <select name="lecturer" className="form-control" onChange={this.onClickInstructors} value={this.state.instructor}
-                                            placeholder="Select the lecture">
+                                            placeholder="Select the Instructor">
                                             {
                                                 this.state.instrut.map(lec => {
                                                     return (
